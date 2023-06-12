@@ -1,0 +1,160 @@
+html body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow-y: hidden;
+  font-family: "Inter", sans-serif;
+}
+.navbar {
+  /* Nothing
+     */
+}
+
+.main {
+  display: flex;
+  /* border: 2px solid blue; */
+  height: 80%;
+  background: #ffcd9e;
+  justify-content: center;
+  justify-content: space-around;
+}
+
+.footer {
+  display: flex;
+  /* border: 2px solid green; */
+  height: 20%;
+  background: #282828;
+}
+
+.LeftBox {
+  display: flex;
+  /* border: 2px solid black; */
+  width: 40%;
+  flex-direction: column;
+  /* align-items: center; */
+}
+
+.TopPara {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  /* font-family: "Inter", sans-serif;
+  font-weight: bold; */
+  /* border: 2px solid black; */
+}
+
+.MidPara {
+  display: flex;
+  flex-wrap: wrap;
+  /* border: 2px solid blue; */
+  width: 60%;
+}
+.bottomContentsmallHeader {
+  display: flex;
+  font-size: medium;
+  justify-self: flex-start;
+}
+
+.BottomContent {
+  display: flex;
+  height: 8%;
+  /* border: 2px solid blue; */
+}
+
+.bottomContentInput {
+  display: flex;
+  width: 40%;
+  height: 90%;
+  border-radius: 5px;
+  /* border: 3px solid black; */
+  padding-left: 12px;
+  margin-right: 2%;
+}
+
+.bottomContentButton {
+  display: flex;
+  width: 20%;
+  height: 100%;
+  border-radius: 5px;
+  /* border: 3px solid black; */
+  padding-left: 12px;
+  background: black;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+
+#LeftBox_id {
+  position: relative;
+  top: 15%;
+  left: 10%;
+}
+
+.RightBox {
+  display: flex;
+  /* border: 2px solid black; */
+  width: 40%;
+  justify-content: center;
+  align-items: center;
+}
+
+.RightBox_Image {
+  height: 60%;
+  width: 60%;
+}
+
+.footer {
+  display: flex;
+  color: rgb(215, 214, 214);
+  justify-content: space-around;
+}
+
+.FooterLeft {
+  display: flex;
+  flex-direction: column;
+  /* border: 2px solid white; */
+  width: 40%;
+}
+
+.FooterRight {
+  display: flex;
+  flex-direction: column;
+  /* border: 2px solid white; */
+  width: 40%;
+}
+
+.listContainer {
+  list-style: none;
+}
+.listItem {
+  position: relative;
+  margin-top: 1%;
+  display: flex;
+}
+#listItem_id_left {
+  justify-content: flex-start;
+  left: 15%;
+}
+#listItem_id {
+  justify-content: flex-end;
+  right: 15%;
+}
+
+.Clickables {
+  margin-left: 2%;
+  height: 5%;
+  width: 5%;
+  /* border: 2px solid red; */
+}
+
+.image {
+  height: 100%;
+  width: 100%;
+}
+
+.Thankyou {
+  display: flex;
+  font-weight: bolder;
+}
